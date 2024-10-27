@@ -1,7 +1,6 @@
-package Loops;
+package loops;
 import java.util.Scanner;
 public class Whiles {
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Your * QTY");
@@ -16,9 +15,7 @@ public class Whiles {
             System.out.println(" ");
             i++;
         }
-
         System.out.println(" ");
-
         int ii = 0;
         while (ii <= userInput) {
             int jj = userInput;
@@ -29,6 +26,5 @@ public class Whiles {
             System.out.println(" ");
             ii++;
         }
-
     }
 }
