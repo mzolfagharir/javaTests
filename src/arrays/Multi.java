@@ -1,3 +1,4 @@
+//Simple multidimensional array to fill with random number
 package arrays;
 public class Multi {
     public static void main(String[] args) {

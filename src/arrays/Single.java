@@ -1,5 +1,5 @@
+//Simple single array to fill with random number
 package arrays;
-
 public class Single {
 
     public static void main(String[] args) {
