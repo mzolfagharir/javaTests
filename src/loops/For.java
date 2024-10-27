@@ -1,3 +1,4 @@
+//Simple loop to print user based *
 package loops;
 import java.util.Scanner;
 public class For {

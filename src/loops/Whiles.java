@@ -1,3 +1,4 @@
+//Simple loop to print user based with while *
 package loops;
 import java.util.Scanner;
 public class Whiles {
