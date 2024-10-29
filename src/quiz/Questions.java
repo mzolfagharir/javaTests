@@ -7,7 +7,6 @@ public class Questions {
         private String op3;
         private String op4;
         private String ans;
-
     @Override
     public String toString() {
         return "Questions{" +
@@ -20,7 +19,6 @@ public class Questions {
                 ", ans='" + ans + '\'' +
                 '}';
     }
-
     public Questions(int id, String question, String op1, String op2, String op3, String op4, String ans) {
         this.id = id;
         this.question = question;
@@ -87,5 +85,3 @@ public class Questions {
         this.ans = ans;
     }
 }
-
-
