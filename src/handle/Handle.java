@@ -5,7 +5,7 @@ public class Handle {
         try {
             int result = 10 % 0;
         } catch (ArithmeticException e) {
-            System.out.println("Not Ok");
+            System.out.println("Not OK");
         }
     }
 }
