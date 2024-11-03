@@ -1,5 +1,5 @@
 package handle;
-public class Handle {
+public class NewHandleThrow {
     public static void main(String[] args) {
         int i = 3;
         try {
