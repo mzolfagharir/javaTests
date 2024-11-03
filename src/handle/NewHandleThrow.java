@@ -5,7 +5,7 @@ public class Handle {
         try {
             int result = 10 / i;
             if(result==0)
-                throw new ArithmeticException();
+                throw new ArithmeticException("I dont want to send message");
         }
         catch (ArithmeticException e) {
             System.out.println("Not OK");
