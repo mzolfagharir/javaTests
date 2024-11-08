@@ -1,4 +1,4 @@
-//Simple App for interface usage
+package src.inter;
 interface Computer{
     void code();
 }
@@ -12,12 +12,12 @@ class AllInOne implements Computer{
         System.out.println("Code with Allinone");
     }
 }
-class Developer extends {
+class Developer extends AllInOne{
     public void run(Computer sys){
         System.out.println("Im coding with " + sys.toString());
     }
 }
-public class Demo {
+public class Main {
     public static void main(String[] args) {
         Computer l = new Laptop();
         Computer a = new AllInOne();
