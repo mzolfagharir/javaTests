@@ -12,7 +12,7 @@ class AllInOne implements Computer{
         System.out.println("Code with Allinone");
     }
 }
-class Developer{
+class Developer extends {
     public void run(Computer sys){
         System.out.println("Im coding with " + sys.toString());
     }
